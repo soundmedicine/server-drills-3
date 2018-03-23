@@ -1,0 +1,26 @@
+{
+  "name": "server-drills-3",
+  "version": "1.0.0",
+  "description": "server-drills version-3",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundmedicine/server-drills-3.git"
+  },
+  "keywords": [
+    "server-drill"
+  ],
+  "author": "Roberto Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundmedicine/server-drills-3/issues"
+  },
+  "homepage": "https://github.com/soundmedicine/server-drills-3#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}

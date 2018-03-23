@@ -3,29 +3,29 @@ const cors = require('cors')
 
 let students = [{
     id: 1,
-    firstName: Alice,
-    lastName: Zephyr,
-    hometown: Seattle
+    firstName: 'Alice',
+    lastName: 'Zephyr',
+    hometown: 'Seattle'
 }, {
     id: 2,
-    firstName: Bob,
-    lastName: Yellow,
-    hometown: Vancouver
+    firstName: 'Bob',
+    lastName: 'Yellow',
+    hometown: 'Vancouver'
 }, {
     id: 3,
-    firstName: Claire,
-    lastName: Xylitol,
-    hometown: Toledo
+    firstName: 'Claire',
+    lastName: 'Xylitol',
+    hometown: 'Toledo'
 }, {
     id: 4,
-    firstName: Daniel,
-    lastName: Winston,
-    hometown: Akron
+    firstName: 'Daniel',
+    lastName: 'Winston',
+    hometown: 'Akron'
 }, {
     id: 5,
-    firstName: Edina,
-    lastName: Veritas,
-    hometown: Wichita
+    firstName: 'Edina',
+    lastName: 'Veritas',
+    hometown: 'Wichita'
 }]
 
 function findById(data, id) {

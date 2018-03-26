@@ -44,15 +44,10 @@ app.get('/', function(request, response) {
     response.json({data: students})
 })
 
-app.get('/:id', function(request, response) {
-    let record = findById(students, request.params.id)
+app.use('/:id', function(request, response) {
+    let record = findById(instructors, request.params.id)
     if (!record) {
-        response.status = 404
-        response.json({
-            error: {
-                message: 'No record found!'
-            }
-        })
+        response.status(404).send('No record found!')
     }
     response.json({data: record})
 })
